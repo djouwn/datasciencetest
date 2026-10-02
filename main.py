@@ -1,3 +1,11 @@
+import os
+
+from facebook_connector import (
+    FacebookConnector,
+    MongoRepository,
+    SocialMediaCollector,
+    TopicFilter
+)* 
 def main():
 
     access_token = os.environ["META_ACCESS_TOKEN"]
