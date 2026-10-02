@@ -5,7 +5,7 @@ from facebook_connector import (
     MongoRepository,
     SocialMediaCollector,
     TopicFilter
-)* 
+)
 def main():
 
     access_token = os.environ["META_ACCESS_TOKEN"]
